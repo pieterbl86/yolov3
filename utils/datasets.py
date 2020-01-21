@@ -9,6 +9,7 @@ from threading import Thread
 
 import cv2
 import numpy as np
+from numpy import zeros, newaxis
 import torch
 from PIL import Image, ExifTags
 from torch.utils.data import Dataset
